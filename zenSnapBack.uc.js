@@ -8,15 +8,12 @@
         win.gBrowser.tabContainer.addEventListener('dblclick', (e) => {
             const tab = e.target.closest('tab');
             
-            // Logic only for pinned tabs
             if (tab?.pinned) {
                 e.preventDefault();
                 e.stopPropagation();
 
-                // Select the tab so the command knows which one to target
                 win.gBrowser.selectedTab = tab;
 
-                // Execute Zen's native reset command
                 const cmd = win.document.getElementById(CMD_ID);
                 if (cmd) {
                     cmd.doCommand();
@@ -30,7 +27,6 @@
         win._zenResetPinnedLoaded = true;
     };
 
-    // --- Optimized Setup Engine ---
     const setup = (win) => {
         if (win.gBrowserInit?.delayedStartupFinished) {
             init(win);
@@ -53,4 +49,5 @@
     }, "domwindowopened");
 
     console.log(`[${MOD_NAME}] Engine loaded using ${CMD_ID}.`);
+
 })();
