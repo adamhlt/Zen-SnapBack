@@ -1,6 +1,22 @@
+
+```
+                      _____                  _____                   ____             __  
+                     /__  /  ___  ____      / ___/____  ____ _____  / __ )____ ______/ /__
+                       / /  / _ \/ __ \     \__ \/ __ \/ __ `/ __ \/ __  / __ `/ ___/ //_/
+                      / /__/  __/ / / /    ___/ / / / / /_/ / /_/ / /_/ / /_/ / /__/ ,<   
+                     /____/\___/_/ /_/    /____/_/ /_/\__,_/ .___/_____/\__,_/\___/_/|_|  
+                                                          /_/                                
+
+```
+
+
+<p align="center">
+    <img src="https://img.shields.io/badge/language-JavaScript-%23f7df1e.svg?style=for-the-badge&logo=javascript" alt="JavaScript">
+    <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-0052cc.svg?style=for-the-badge&logo=zen" alt="Multi-Platform">
+    <img src="https://img.shields.io/badge/target-Zen%20Browser-00aae4.svg?style=for-the-badge&logo=zen" alt="Zen Browser">
+</p>
+
 **Zen-SnapBack** is an ultra-lightweight power-user mod for **Zen Browser**. It allows you to instantly reset any pinned tab to its original "Home" URL with a simple double-click.
-
-
 
 ---
 
